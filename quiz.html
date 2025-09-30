@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+
+    <link rel="icon" type="image/png" href="logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="bg-dark m-0">
+
+   <header class="bg-light text-dark py-4 mb-5 sticky-top">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <!-- Logo: ocupa duas linhas -->
+            <div class="col-auto d-flex flex-column justify-content-center me-3">
+                <a class="navbar-brand" href="index.html">
+                    <img src="logo.png" alt="Mineração de Moedas Digitais e sua Relação com o Clima" height="120">
+                </a>
+            </div>
+
+            <!-- Coluna do título e menu -->
+            <div class="col">
+
+                <!-- Linha 1: Título -->
+                <div class="mb-3 text-center text-center">
+                    <h1 class="d-flex m-0 pb-3">Mineração de Moedas Digitais e sua Relação com o Clima</h1>
+                </div>
+
+                <!-- Linha 2: Navegação -->
+                <nav class="navbar navbar-expand-lg navbar-light p-0">
+                    <div class="container-fluid justify-content-center p-0">
+
+                        <!-- Botão para mobile -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                            <ul class="navbar-nav gap-4">
+                                <li class="nav-item"><a class="nav-link text-dark menu" href="index.html">Introdução</a></li>
+                                <li class="nav-item"><a class="nav-link text-dark menu" href="consumo.html">Consumo Energético</a></li>
+                                <li class="nav-item"><a class="nav-link text-dark menu" href="impacto.html">Impactos Ambientais</a></li>
+                                <li class="nav-item"><a class="nav-link text-dark menu" href="solucoes.html">Alternativas e Soluções</a></li>
+                                <li class="nav-item"><a class="nav-link text-dark menu" href="quiz.html"><b>Quiz</b></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+    </div>
+  </header>
+
+<main>
+<form>
+    <section class="mt-5 mb-5">
+        <article class="bg-white py-5 mb-5">
+            <h1 class="text-center">Quiz de Introdução</h1>
+            <!--Cards-->
+            <div class="container mt-5">
+                <div class="row justify-content-center g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="Imagem1.jpg" class="card-img-top" alt="Imagem de um ASIC (Application-Specific Integrated Circuits), modelo Antminer S09 14th">
+                            <div class="card-body">
+                                <h4 class="card-title pb-5 text-center">Explique por que a mineração de criptomoedas tem relação com questões ambientais e geográficas</h4>
+                                    <div class="pb-5">
+                                        <label for="suaresposta" class="form-label">Sua Resposta:</label>
+                                        <input type="text" class="form-control" id="suaresposta" placeholder="Digite aqui">
+                                    </div>
+                            </div>
+                        </div>
+                     </div>
+    
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="gpus.jpg" class="card-img-top" alt="Imagem de uma GPU (placas de vídeo), modelo GeForce RTX Founders Edition">
+                            <div class="card-body">
+                                <h4 class="card-title text-center mx-4 my-3">Qual dos fatores abaixo NÃO é uma razão para o alto consumo de energia na mineração de criptomoedas?</h4>
+                                <div class="form-check form-check-inline">
+                                     <input class="form-check-input" type="radio" name="grupo1">
+                                        <label class="form-check-label">Máquinas ligadas 24h em alto desempenho</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="grupo1">
+                                    <label class="form-check-label">Vários computadores competindo para resolver os mesmos cálculos</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                     <input class="form-check-input" type="radio" name="grupo1">
+                                        <label class="form-check-label">Necessidade de resfriamento constante das máquinas</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="grupo1">
+                                    <label class="form-check-label">A blockchain ser centralizada em um único servido</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section class="mt-5 mb-5">
+        <article class="bg-white py-5 mb-5">
+            <h1 class="text-center">Quiz sobre Consumo Energético</h1>
+            <!--Cards-->
+            <div class="container mt-5">
+                <div class="row justify-content-center g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="asics.jpg" class="card-img-top" alt="Imagem de um ASIC (Application-Specific Integrated Circuits), modelo Antminer S09 14th">
+                            <div class="card-body">
+                                <h4 class="card-title text-center">Qual método o Bitcoin usa para “minerar” suas moedas: Proof of Work ou Proof of Stake?</h4>
+                                    <div class="mb-3">
+                                        <label for="suaresposta" class="form-label">Sua Resposta:</label>
+                                        <input type="text" class="form-control" id="suaresposta" placeholder="Digite aqui">
+                                    </div>
+                            </div>
+                        </div>
+                     </div>
+    
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="gpus.jpg" class="card-img-top" alt="Imagem de uma GPU (placas de vídeo), modelo GeForce RTX Founders Edition">
+                            <div class="card-body">
+                                <h4 class="card-title text-center mx-4 my-3">Em 2023, a mineração de criptomoedas no mundo todo consumiu energia parecida com a de qual país?</h4>
+                                <div class="form-check form-check-inline">
+                                     <input class="form-check-input" type="radio" name="grupo1">
+                                        <label class="form-check-label">Argentina</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="grupo1">
+                                    <label class="form-check-label">Brasil</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                     <input class="form-check-input" type="radio" name="grupo1">
+                                        <label class="form-check-label">EUA</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="grupo1">
+                                    <label class="form-check-label">Portugal</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section class="mt-5 mb-5">
+        <article class="bg-white py-5 mb-5">
+            <h1 class="text-center">Quiz sobre Impactos Ambientais</h1>
+            <!--Cards-->
+            <div class="container mt-5">
+                <div class="row justify-content-center g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="Imagem1.jpg" class="card-img-top"
+                                alt="Imagem de um bitcoin ao lado de uma planta">
+                            <div class="card-body">
+                                <h4 class="card-title text-center">Qual das seguintes afirmações é falsa?
+
+                                    <p>I - A mineração de criptomoedas gera um alto consumo de energia.<br>
+                                
+                                    III - Os efeitos da mineração  não são danosos a longo prazo.</h4> </p>
+                                <div class="mb-3">
+                                    <label for="suaresposta" class="form-label">Sua Resposta:</label>
+                                    <input type="text" class="form-control" id="suaresposta" placeholder="Digite aqui">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="Imagem2.jpg" class="card-img-top"
+                                alt="Imagem de um bitcoin ao lado de bandeiras de países">
+                            <div class="card-body">
+                                <h4 class="card-title text-center">Assinale a alternativa que apresenta apenas países
+                                    que buscam o uso da mineração "verde" de criptomoedas
+
+
+                                </h4>
+                                <br>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="grupo1">
+                                    <label class="form-check-label">Estados Unidos e Canadá</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="grupo1">
+                                    <label class="form-check-label">Rússia e Islândia</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="grupo1">
+                                    <label class="form-check-label ">Rússia e Canadá </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input ms-4" type="radio" name="grupo1">
+                                    <label class="form-check-label ps-3">Canadá e Islândia</label>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section class="mt-5 mb-5">
+        <article class="bg-white py-5 mb-5">
+            <h1 class="text-center">Quiz sobre Alternativas e Soluções</h1>
+            <!--Cards-->
+            <div class="container mt-5 pb-5">
+                <div class="row justify-content-center g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="asics.jpg" class="card-img-top" alt="Imagem de um ASIC (Application-Specific Integrated Circuits), modelo Antminer S09 14th">
+                            <div class="card-body">
+                                <h4 class="card-title text-center">Como o uso de energias renováveis pode tornar a mineração de criptomoedas mais sustentável? Cite dois exemplos</h4>
+                                    <div class="mb-3">
+                                        <label for="suaresposta" class="form-label">Sua Resposta:</label>
+                                        <input type="text" class="form-control" id="suaresposta" placeholder="Digite aqui">
+                                    </div>
+                            </div>
+                        </div>
+                     </div>
+    
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="gpus.jpg" class="card-img-top" alt="Imagem de uma GPU (placas de vídeo), modelo GeForce RTX Founders Edition">
+                            <div class="card-body">
+                                <h4 class="card-title text-center">Qual das alternativas abaixo apresenta uma solução mais eficiente e sustentável para reduzir o consumo energético na mineração de criptomoedas?</h4>
+                                <div class="form-check form-check-inline">
+                                     <input class="form-check-input" type="radio" name="grupo1">
+                                        <label class="form-check-label">Continuar utilizando o Proof of Work (PoW) com energia gerada por carvão mineral</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="grupo1">
+                                    <label class="form-check-label">Utilizar o Proof of Stake (PoS) e adotar fontes de energia renovável, como solar e eólica</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                     <input class="form-check-input" type="radio" name="grupo1">
+                                        <label class="form-check-label">Instalar mais servidores em regiões frias para evitar o uso de ventilação</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="grupo1">
+                                    <label class="form-check-label">Utilizar energia elétrica sem se preocupar com a fonte, priorizando apenas a velocidade da mineração</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="enviado" class="alert alert-success mt-5 text-center mx-auto" style="max-width: 600px;">
+                 Você Chegou ao Fim do Formulário
+            </div>
+
+            <div class="d-flex justify-content-center py-5">
+                <button type="submit" class="btn btn-success btn-lg">Enviar</button>
+            </div>
+        </article>
+    </section>
+</form>
+
+
+
+    <footer class="mt-5 py-5 bg-light text-dark text-center">
+        <div class="container d-inline-block">
+            <p id="rodape" class="m-0 display-6">Mineração de Moedas Digitais e sua Relação com o Clima   ©2025
+
+                <a class="img-auto mx-4">
+                    <img src="logo.png" alt="Mineração de Moedas Digitais e sua Relação com o Clima" height="100px">
+                </a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

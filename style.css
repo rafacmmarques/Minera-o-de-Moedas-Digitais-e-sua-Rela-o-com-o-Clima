@@ -1,0 +1,69 @@
+html, body {
+      height: 100%;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+    main {
+      flex: 1; /* ocupa o espaço disponível */
+    }
+
+    article {
+        margin: 100px;
+    }
+
+    #c {
+        margin-top: 250px;
+        margin-bottom: 250px;
+    }
+
+.menu {
+    transition: transform 0.9s ease, color 0.9s ease; /* anima cor e zoom */
+}
+
+.menu:hover {
+    color: black;          /* texto preto */
+    transform: scale(1.1); /* zoom */
+}
+
+.carrossel {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-inner, .carousel-item {
+    width: 100%;
+    max-width: 500px; /* limita largura em desktops */
+}
+
+.carousel-item img {
+    width: 100%;    /* ocupa toda a largura do slide */
+    height: auto;   /* mantém proporção */
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+#carouselExampleIndicators {
+    border: 10px solid aliceblue;  /* borda preta de 4px */
+    border-radius: 10px;      /* cantos arredondados (opcional) */
+    overflow: hidden;         /* garante que imagens não ultrapassem a borda */
+}
+
+article {
+    margin: 5% auto;       /* centraliza horizontalmente e usa espaço relativo */
+    padding: 20px;         /* espaço interno */
+    max-width: 90%;      /* limite em telas grandes */
+    box-sizing: border-box;/* garante padding incluso na largura */
+    border: 5px solid white;
+    border-radius: 100px
+}
+
+.texto {
+    margin-left: 30%;
+}
+
+#rodape {
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
